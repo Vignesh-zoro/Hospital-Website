@@ -1,0 +1,236 @@
+#main-div
+{
+  background-image: url(images/img13.jpg);
+  background-size: cover;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 170px;
+}
+.Logo
+{
+    border-radius: 150%;
+}
+a
+{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+a:hover
+{
+    color: darkturquoise;
+}
+#form
+{
+    background-color: white;
+    width: 750px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+
+}
+.head
+{
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 20px solid black;
+}
+.m1
+{
+    margin-left: 20px;
+    text-decoration: underline;
+    width: 50%;
+}
+#date
+{
+    display: flex;
+    justify-content: right;
+}
+.dd
+{
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+#inputs
+{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.n1,select
+{
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.names
+{
+    display: flex;
+    width: 48%;
+}
+.number
+{
+    width: 48%;
+    display: flex;
+}
+label
+{
+    font-size: 19px;
+    color: #606770;
+    margin-top: 15px;
+}
+#dob
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#dob1
+{
+    width: 31%;
+    display: flex;
+}
+#gender
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#genders
+{
+    width: 31%;
+    display: flex;
+    padding-top: 7px;
+}
+#radio
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#radio p
+{
+    padding-bottom: 0px;
+    font-size: 17px;
+} 
+.radio-btn
+{
+    margin: 0;
+    width: auto;
+}
+#address
+{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+.add
+{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+.m2
+{
+    text-decoration: underline;
+}
+#parents
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.n1
+{
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.Parent
+{
+    display: flex;
+    width: 48%;
+}
+.num
+{
+    width: 48%;
+    display: flex;
+}
+.typed
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.acd
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+#past
+{
+    width: 100%;
+}
+.past1
+{
+    float: left;
+    width: 33%;
+    line-height: 30px;
+}
+#submit
+{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.sub
+{
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+    width: 130px;
+    margin: 60px;
+    border-radius: 45px;
+}
+.sub:hover
+{
+    cursor: pointer;
+}
+#footer
+{
+    border-top: 20px solid black;
+}
+#detail p
+{
+    border: 2px solid black;
+    padding: 28px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: aqua;
+}

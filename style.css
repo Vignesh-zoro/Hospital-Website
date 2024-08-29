@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-image: url(images/img12.jfif);
+    background-size: cover;
+    
+}
+.container
+{
+    width: 100%;
+    height: auto;
+}
+/* Style The Log */
+.log
+{
+    width: 100%;
+}
+.log img
+{
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+.log h4
+{
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+/* Style the main-logo */
+.main-logo
+{
+    background-image: url(images/img11.jfif);
+    background-size: cover;
+    height: 650px;
+    padding: 400px 0px 0px 30px;
+    border-bottom: 2px solid black;
+}
+#btn
+{
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 45px;
+}
+/* Style the main-container */
+.main-container
+{
+    padding-top: 30px;
+    margin: 30px 0px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 2px solid black;
+}
+/* Style the about-section */
+.about-section
+{
+   border: 1px solid black;
+   width: 37%;
+   padding: 20px;
+   line-height: 30px;
+   border-radius: 20px;
+   box-shadow: 0 1px 4px black;
+}
+.about-content
+{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.hospital-look
+{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.hospital-look img
+{
+    border-radius: 20px;
+}
+/* Style The hospital-fef */
+.hospital-fef
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+    gap: 1.5rem;
+}
+.box1
+{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 1px 4px black;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0px 40px 0px;
+   
+}
+.box1 img
+{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+/* Style the hospital forms */
+.hospital-forms
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+.hospital-forms a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.hospital-forms a:hover
+{
+    text-decoration: underline;
+    color: aqua;
+}
+/* Style the footer */
+.heading
+{
+    text-align: center;
+    margin: 20px 0px;
+   font-weight: 600;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.footer a
+{
+font-size: 30px;
+}
+.footer a:hover
+{
+    color: aqua;
+}
+.information
+{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#emailHelp
+{
+    color: white;
+}
+.quick-access
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+.quick-access a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.quick-access a:hover
+{
+    text-decoration: underline;
+    color: aqua;
+}

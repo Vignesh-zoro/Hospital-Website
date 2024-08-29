@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+}
+
+#main-div {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 170px;
+}
+
+#imgs {
+    display: flex;
+    width: 100%;
+}
+
+#imgs img {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 40px;
+    display: flex;
+}
+
+#imgs h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.Logo {
+    border-radius: 150%;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: darkturquoise;
+}
+
+#form {
+    background-color: white;
+    width: 750px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 60px;
+
+}
+
+.head {
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 20px solid black;
+}
+
+.m1 {
+    margin: 20px 0px 20px 20px;
+    text-decoration: underline;
+    width: 50%;
+}
+
+#date {
+    display: flex;
+    justify-content: right;
+}
+
+.dd {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+#inputs {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.n1,
+.mo0 {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.names {
+    display: flex;
+    width: 48%;
+}
+
+.number {
+    width: 48%;
+    display: flex;
+}
+
+label {
+    font-size: 19px;
+    color: #606770;
+    margin-top: 15px;
+}
+
+#dob {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#dob1 {
+    width: 31%;
+    display: flex;
+}
+
+#address {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+.add {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.m2 {
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+#parents {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.n1 {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.Parent {
+    display: flex;
+    width: 48%;
+}
+
+.num {
+    width: 48%;
+    display: flex;
+}
+
+#topic {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.op {
+    width: 30%;
+    display: flex;
+}
+
+#duration {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dur {
+    width: 20%;
+    display: flex;
+}
+
+.mo1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    padding: 9px;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.m8 {
+    width: 20%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.n2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    padding: 9px;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+#topic1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#files {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#file {
+    display: flex;
+    padding-top: 10px;
+}
+
+#tablets {
+    width: 100%;
+    display: flex;
+}
+
+#tablet {
+    display: flex;
+    width: 100%;
+}
+
+.n3 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+
+}
+
+#topic3 {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+}
+
+#appo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bot {
+    border-bottom: 20px solid black;
+}
+
+#submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+    width: 130px;
+    margin: 60px;
+    border-radius: 45px;
+}
+
+.sub:hover {
+    cursor: pointer;
+}
+
+#detail p {
+    border: 2px solid black;
+    padding: 28px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: aqua;
+}
